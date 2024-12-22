@@ -12,7 +12,7 @@ const io = new Server(server);
 app.use(express.json()); // Middleware to parse JSON request bodies
 
 // Connect to MongoDB using environment variable
-const mongoUri = process.env.MONGO_URI || 'mongodb://localhost:27017/yourDatabase';
+const mongoUri = process.env.MONGO_URI || 'mongodb+srv://ashmitmorwal3:b2kV3dAkEaA0j1r0@cluster0.uomx6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0e';
 mongoose.connect(mongoUri, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
